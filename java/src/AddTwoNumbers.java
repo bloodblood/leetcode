@@ -20,7 +20,7 @@ public class AddTwoNumbers {
         printListNode(ans);
     }
 
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    private static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode temp = new ListNode(0);
         ListNode ans = temp;
         int carry = 0;
