@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Given a string s, find the longest palindromic substring in s.
  * You may assume that the maximum length of s is 1000.
@@ -36,7 +34,7 @@ public class LongestPalindromicSubstring {
 
     private static boolean checkPalindrome(char[] temp) {
         int length = temp.length;
-        for (int i = 0; i <= length/2; i++) {
+        for (int i = 0; i <= length / 2; i++) {
             if (temp[i] != temp[length - i - 1])
                 return false;
         }
