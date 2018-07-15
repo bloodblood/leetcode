@@ -1,3 +1,5 @@
+package easy;
+
 /**
  * Input: ["flower","flow","flight"]
  * Output: "fl"

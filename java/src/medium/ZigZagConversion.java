@@ -1,3 +1,5 @@
+package medium;
+
 /**
  * Input: s = "PAYPALISHIRING", numRows = 4
  * Output: "PINALSIGYAHRPI"
