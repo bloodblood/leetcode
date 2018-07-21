@@ -1,3 +1,5 @@
+package medium;
+
 /**
  * Input: "   -42"
  * Output: -42

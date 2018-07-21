@@ -1,6 +1,6 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package medium;
+
+import utils.ListNode;
 
 /**
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
@@ -17,7 +17,7 @@ public class AddTwoNumbers {
         node2.next = new ListNode(6);
         node2.next.next = new ListNode(4);
         ListNode ans = addTwoNumbers(node1, node2);
-        printListNode(ans);
+        ListNode.printListNode(ans);
     }
 
     private static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -35,22 +35,5 @@ public class AddTwoNumbers {
         return ans.next;
     }
 
-    // for test
-    private static void printListNode(ListNode node) {
-        List<Integer> nums = new ArrayList<>();
-        while (node != null) {
-            nums.add(node.val);
-            node = node.next;
-        }
-        System.out.println(Arrays.toString(nums.toArray()));
-    }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }

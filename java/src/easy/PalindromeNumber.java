@@ -1,3 +1,5 @@
+package easy;
+
 /**
  * Input: -121
  * Output: false
