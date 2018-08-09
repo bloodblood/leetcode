@@ -10,7 +10,7 @@ package medium;
  * Y A   H R
  * P     I
  */
-public class ZigZagConversion {
+class ZigZagConversion {
     public static void main(String[] args) {
         System.out.println(convert("ABCDEFGHIJKLMN", 4));
     }

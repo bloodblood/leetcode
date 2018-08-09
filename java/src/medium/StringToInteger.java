@@ -10,7 +10,7 @@ package medium;
  * space ignore
  * + -
  */
-public class StringToInteger {
+class StringToInteger {
     public static void main(String[] args) {
         String num = "42";
         System.out.println(myAtoi(num));

@@ -14,7 +14,7 @@ import java.util.List;
  * [-1, -1, 2]
  * ]
  */
-public class ThreeSum {
+class ThreeSum {
     public static void main(String[] args) {
         int[] input = new int[]{-4, -2, 1, -5, -4, -4, 4, -2, 0, 4, 0, -2, 3, 1, -5, 0};
         System.out.println(Arrays.deepToString(threeSum(input).toArray()));

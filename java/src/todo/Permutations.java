@@ -15,7 +15,7 @@ import java.util.List;
  * [3,2,1]
  * ]
  */
-public class Permutations {
+class Permutations {
     public static void main(String[] args) {
         //  System.out.println(Arrays.deepToString(permute(new int[]{1, 2, 3}).toArray()));
     }

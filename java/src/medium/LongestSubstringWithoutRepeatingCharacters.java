@@ -10,7 +10,7 @@ import java.util.List;
  * Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  */
 
-public class LongestSubstringWithoutRepeatingCharacters {
+class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         String s = "pwwkew";
         System.out.println(lengthOfLongestSubstring(s));

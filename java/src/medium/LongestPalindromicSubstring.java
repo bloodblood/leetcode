@@ -10,7 +10,7 @@ package medium;
 
 
 // TODO: Naive Solution
-public class LongestPalindromicSubstring {
+class LongestPalindromicSubstring {
     public static void main(String[] args) {
         String input = "cbbd";
         System.out.println(longestPalindrome(input));
