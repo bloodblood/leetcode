@@ -5,7 +5,7 @@ package medium;
  * Output: "LVIII"
  * Explanation: C = 100, L = 50, XXX = 30 and III = 3.
  */
-public class IntegerToRoman {
+class IntegerToRoman {
     public static void main(String[] args) {
         System.out.println(intToRoman(10));
     }

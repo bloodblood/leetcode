@@ -7,7 +7,7 @@ import utils.ListNode;
  * Output: 7 -> 0 -> 8
  * Explanation: 342 + 465 = 807.
  */
-public class AddTwoNumbers {
+class AddTwoNumbers {
     public static void main(String[] args) {
         ListNode node1 = new ListNode(2);
         node1.next = new ListNode(4);

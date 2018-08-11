@@ -1,6 +1,6 @@
 package medium;
 
-public class ContainerWithMostWater {
+class ContainerWithMostWater {
 
     public static void main(String[] args) {
         int[] height = new int[]{1, 2, 3, 4};
