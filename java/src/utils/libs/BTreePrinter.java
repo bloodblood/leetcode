@@ -1,4 +1,4 @@
-package utils;
+package utils.libs;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,7 +9,7 @@ import java.util.List;
  * <br>
  * https://stackoverflow.com/questions/4965335/how-to-print-binary-tree-diagram
  */
-class BTreePrinter {
+public class BTreePrinter {
   public static <T extends Comparable<?>> void printNode(Node<T> root) {
     int maxLevel = BTreePrinter.maxLevel(root);
 
